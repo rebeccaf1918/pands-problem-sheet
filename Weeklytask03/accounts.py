@@ -3,7 +3,6 @@
 # number with only the last 4 digits showing (and the first 6 digits replaced with Xs).
 # Author: Rebecca Feeley
 
-
 account_number_to_input = str(input("Enter a 10 digit account number: "))
 
 #https://www.w3schools.com/python/ref_string_rjust.asp - I used this as inspiration for the code
