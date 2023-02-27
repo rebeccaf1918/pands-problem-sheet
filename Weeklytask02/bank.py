@@ -1,5 +1,5 @@
 # bank.py
-# Adding two numbers and prints out result in currency
+# Adding two numbers and prints out result in currency.
 # Author: Rebecca Feeley
 
 number1 = int(input("Enter amount 1 (in cents):"))
