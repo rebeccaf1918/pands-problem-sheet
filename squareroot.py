@@ -8,12 +8,14 @@ if number <= 1: # if number is not a positive number, it reads error message and
     print ("You have not entered a positive number.") 
     number = float (input("Previous number was not positive. Please enter a positive number: "))
 
-def sqrt(number): 
-    guess_sqrt = number / 2  #square root of number must be less than half of the value of original number 
-    newton_sqrt = ((guess_sqrt + (number/guess_sqrt)) * 0.5) #sqrt = (0.5(x + (n/x)))
-    while guess_sqrt != newton_sqrt:
-        guess_sqrt = newton_sqrt
-        newton_sqrt = ((guess_sqrt + number/guess_sqrt) * 0.5)
+def sqrt(number): # I defined the sqrt function and it takes 1 argument i.e 'number'
+    guess_sqrt = number / 2  #square root of number must be less than half of the value of original number; 
+    # as Newton's method requires a guess, I equalled the guess to half the inputted number.
+    newton_sqrt = ((guess_sqrt + (number/guess_sqrt)) * 0.5) #sqrt = (0.5(x + (n/x))) 
+    # the above code line assigns a new newton_sqrt variable as an improved guess by using Newton's method
+    while guess_sqrt != newton_sqrt: # a while loop is used to continute until the improved guess(newton_sqrt) and current guess are equal. 
+        guess_sqrt = newton_sqrt # this assigns the current guess(guess_sqrt) to be equal to the improved guess
+        newton_sqrt = ((guess_sqrt + number/guess_sqrt) * 0.5) # this code line uses Newton's method to get an improved guess of the square root
     return guess_sqrt
 
 print (sqrt(number))
