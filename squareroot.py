@@ -3,7 +3,7 @@
 # Program that takes a positive floating-point number as input and outputs an approximation of its square root.
 # Author: Rebecca Feeley
 
-number = float(input("Please enter a positive number: ")) # asks user to input number and converts it to a float
+number = float(input("Please enter a positive number: ")) # asks user to input number and converts it to a float, storing it in variable 'number'
 if number <= 1: # if number is not a positive number, it reads error message and asks user to reenter a positive number.
     print ("You have not entered a positive number.") 
     number = float (input("Previous number was not positive. Please enter a positive number: "))
