@@ -17,8 +17,4 @@ account_number = (account_number_to_input[6: ].rjust(len(account_number_to_input
 
 print (account_number) # prints out redacted account number showing only last 4 digits
 
-#REFERENCES:
-# https://www.w3schools.com/python/ref_string_rjust.asp - # I used this as inspiration for the code
-# https://stackoverflow.com/questions/59342854/how-to-mask-input-and-display-the-last-4-digit-using-python
-# https://www.codingem.com/python-how-to-ask-for-user-input/
 

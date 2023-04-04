@@ -13,6 +13,3 @@ currency = "€{:,.2f}".format(sum) #.2f formats the result to display two decim
 print (f"The sum of this is " + currency)
 
 
-#REFERENCES:
-# https://stackoverflow.com/questions/320929/currency-formatting-in-python
-# https://www.w3schools.com/python/ref_string_format.asp
