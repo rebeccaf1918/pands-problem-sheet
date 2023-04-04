@@ -18,6 +18,3 @@ def sqrt(number):
 
 print (sqrt(number))
 
-# REFERENCES:
-# https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo
-# https://stackoverflow.com/questions/28733759/python-square-function-using-newtons-algorithm
