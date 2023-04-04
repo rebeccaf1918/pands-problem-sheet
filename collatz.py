@@ -20,8 +20,3 @@ while number != 1: # this creates a while loop that runs until the output equals
     collatz_numbers.append(number)
     print (collatz_numbers)
     # this loop continues until the number 1 is the outcome. The outputs of the if loop are appended to the collatz_numbers list
-
-# REFERENCES:
-# https://www.w3schools.com/python/python_while_loops.asp
-# https://www.educative.io/answers/how-to-implement-the-collatz-sequence-in-c-and-python
-# https://www.pythonpool.com/collatz-sequence-python/
