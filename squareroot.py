@@ -18,5 +18,5 @@ def sqrt(number): # I defined the sqrt function and it takes 1 argument i.e 'num
         newton_sqrt = ((guess_sqrt + number/guess_sqrt) * 0.5) # this code line uses Newton's method to get an improved guess of the square root
     return guess_sqrt
 
-print (sqrt(number))
+print ("The square root of", number, "is", sqrt(number))
 
