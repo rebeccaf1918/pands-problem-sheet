@@ -13,15 +13,15 @@ while number <= 0: # while loop created so catch any negative numbers inputted s
     number = int(input("Please enter a positive integer: "))
 
 while number != 1: # this creates a while loop that runs until the output equals 1
-    collatz_numbers.append(number)
     if (number % 2) == 0: # the number entered is checked using modulus to see if it is even. If it is even, 
         number = (number // 2) # this code runs and number is divided by 2 and added to collatz_numbers list
     elif (number % 2) == 1: # else if the number entered is odd,
-        number = (number * 3 + 1) # this code runs and the number is multiplied by 3 and 1 is added. Its appended to collatz_numbers list
-    print (number) 
+        number = (number * 3 + 1) # this code runs and the number is multiplied by 3 and 1 is added. Its appended to collatz_numbers list 
+    collatz_numbers.append(number)
+    print (collatz_numbers)
     # this loop continues until the number 1 is the outcome. The outputs of the if loop are appended to the collatz_numbers list
 
 # REFERENCES:
 # https://www.w3schools.com/python/python_while_loops.asp
 # https://www.educative.io/answers/how-to-implement-the-collatz-sequence-in-c-and-python
-# https://hackernoon.com/calculating-the-square-root-of-a-number-using-the-newton-raphson-method-a-how-to-guide-yr4e32zo
+# https://www.pythonpool.com/collatz-sequence-python/
