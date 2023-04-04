@@ -24,7 +24,3 @@ filename = sys.argv[1] # takes in name of file from command line argument entere
 print("The number of occurances of the letter 'e' is: " + str(count_es(filename)))
 # print a message for reader; result is converted to a string as it cannot be read as integer
 
-# REFERENCES:
-# https://www.geeksforgeeks.org/count-the-number-of-times-a-letter-appears-in-a-text-file-in-python/
-# https://www.tutorialspoint.com/python/python_command_line_arguments.htm
-# https://stackoverflow.com/questions/18647707/count-letters-in-a-text-file
