@@ -1,5 +1,6 @@
+# Weekly Task 05
 # weekday.py
-# Citation: pynative.com (https://pynative.com/python-get-the-day-of-week/)
+# Program that 
 # Author: Rebecca Feeley
 
 from datetime import datetime
@@ -12,6 +13,10 @@ if x > 5: # 1 = Monday; 2 = Tuesday; etc)
 
 else:
     print ("Yes, unfortunately, today is a weekday.")
+
+
+# REFERENCES:
+# https://pynative.com/python-get-the-day-of-week
 
 
 
