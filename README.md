@@ -49,19 +49,19 @@ Have the program end if the current value is one.
 
 ### Task 4 Solution & References
 This program asks the user to input a positive number and converts it to an integer value. A while loop is used to keep repeating the loop as long as the value in number does not equal 1.
-Inside of the while loop, an if and elif statement is used to help determine whether the number inputted is even or odd.  
+I created my own collatz function in which an if and elif statement is used to help determine whether the number inputted is even or odd.  
 The if statement uses the modulus operation to check if the integer inputted is even as if the remainder equals 0, the number must be even.   
-If the number is even, the indented statement runs and the number is divided by 2 and appended to the collatz_numbers list.
+If the number is even, the indented statement runs and the number is divided by 2.  
 The elif statement uses the modulus operation to check if the integer inputted is odd as if the remainder equals 1, the number must be odd.
-If the number is odd, the indented statement runs and the number is multiplied by 3 and 1 is added to it. The result is appended to the collatz_number list.
-The while loop is used to iterate over every number until 1. When the number eventually reaches 1, the while loop will evaluate as false and will end the while loop.   
+If the number is odd, the indented statement runs and the number is multiplied by 3 and 1 is added to it.  
+The while loop is used to iterate over every number until 1. When the number eventually reaches 1, the while loop will evaluate as false and will end the while loop. The result is appended to the collatz_number list.    
 This set of calculations is called the Collatz Conjecture.   
 
 ***References:***   
 https://www.w3schools.com/python/python_while_loops.asp  
 https://www.educative.io/answers/how-to-implement-the-collatz-sequence-in-c-and-python  
 https://www.pythonpool.com/collatz-sequence-python/  
-
+https://realpython.com/python-kwargs-and-args/#unpacking-with-the-asterisk-operators
 
 ### Task 5
 Write a program that outputs whether or not today is a weekday. (The program should be called weekday.py)    
