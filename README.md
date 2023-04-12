@@ -122,7 +122,7 @@ In addition, the function h(x)=x^3 is plotted on the same plot as the historgram
 with the y point being the cube of the x point.  
 I also used various matplotlib functions such as title() and grid() to set the title, grid, style, colour, font and size. I also created a legend so the user can easily idenify the histogram and the function.  
 
-***References:***
+***References:***  
 https://stackoverflow.com/questions/21494489/what-does-numpy-random-seed0-do  
 https://www.geeksforgeeks.org/matplotlib-pyplot-xlim-in-python/    
 https://matplotlib.org/stable/tutorials/introductory/pyplot.html  
