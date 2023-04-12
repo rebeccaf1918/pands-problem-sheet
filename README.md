@@ -113,7 +113,18 @@ https://stackoverflow.com/questions/18647707/count-letters-in-a-text-file
 ### Task 8 Solution & References  
 >Write a program called plottask.py that displays: a histogram of a normal distribution of a 1000 values with a >mean of 5 & standard deviation of 2, and a plot of the function h(x)=x3 in the range [0, 10], on one set of axes.  
 
+This program requires the numpy and matplotlib.pyplot modules to be imported.
+Firstly, I created a histogram using randomly generated numbers. However, I set the seed to 1 so the   
+random numbers generated will be the same each time, in order to make debuggin easier.  
+The values in the brackets following the historgram set the mean, standard deviation and number of values.  
+Here, an array of 1000 random numbers is created, with a mean of 5 and a standard deviation of 2.  
+In addition, the function h(x)=x^3 is plotted on the same plot as the historgram, in the range 1 to 10 inclusive,  
+with the y point being the cube of the x point.  
+I also used various matplotlib functions such as title() and grid() to set the title, grid, style, colour, font and size. I also created a legend so the user can easily idenify the histogram and the function.  
 
-
-
-
+***References:***
+https://stackoverflow.com/questions/21494489/what-does-numpy-random-seed0-do
+https://www.geeksforgeeks.org/matplotlib-pyplot-xlim-in-python/
+https://matplotlib.org/stable/tutorials/introductory/pyplot.html
+https://www.w3schools.com/python/matplotlib_histograms.asp
+https://www.w3schools.com/python/matplotlib_labels.asp
